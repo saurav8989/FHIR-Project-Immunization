@@ -1,0 +1,519 @@
+{
+  "resourceType": "Immunization",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+        		  {
+          			"system": "http://hl7.org/fhir/sid/cvx",
+          			"code": "292",
+          			"display": "BCG"
+        		  }
+        		],
+            "text": "BCG" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-01-01",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": {
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "130",
+                  "display": "DTaP-Hep B-Hib"
+                }
+              ],
+            "text": "Pentavalent" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-02-12",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "Pentavalent",
+          "doseNumber": {
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+        "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "130",
+                  "display": "DTaP-Hep B-Hib"
+                }
+              ],    
+        "text": "Pentavalent" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-03-11",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "Pentavalent",
+          "doseNumber": {
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "130",
+                  "display": "DTaP-Hep B-Hib"
+                }
+              ],
+            "text": "Pentavalent" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-04-08",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "Pentavalent",
+          "doseNumber":{
+            "value":3
+          },
+          "seriesDoses": {"value":3}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "02",
+                  "display": "Polio, Live, oral(OPV)"
+                }
+              ],
+            "text": "OPV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-02-12",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "OPV",
+          "doseNumber":{
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "02",
+                  "display": "Polio, Live, oral(OPV)"
+                }
+              ],
+            "text": "OPV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-03-11",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "OPV",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "02",
+                  "display": "Polio, Live, oral(OPV)"
+                }
+              ],
+            "text": "OPV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-04-08",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "OPV",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "133",
+                  "display": "Pneumococcal conjugate PCV13"
+                }
+              ],
+            "text": "PCV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-02-12",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "PCV",
+          "doseNumber":{
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "133",
+                  "display": "Pneumococcal conjugate PCV13"
+                }
+              ],
+            "text": "PCV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-03-11",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "PCV",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "133",
+                  "display": "Pneumococcal conjugate PCV13"
+                }
+              ],
+            "text": "PCV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-11-11",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "PCV",
+          "doseNumber":{
+            "value":3
+          },
+          "seriesDoses": {"value":3}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "119",
+                  "display": "Rotavirus, pentavalent"
+                }
+              ],
+            "text": "Rotavirus" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-02-12",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "Rotavirus",
+          "doseNumber":{
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "119",
+                  "display": "Rotavirus, pentavalent"
+                }
+              ],
+            "text": "Rotavirus" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-04-12",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "Rotavirus",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "10",
+                  "display": "IPV"
+                }
+              ],
+            "text": "fIPV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-03-26",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "fIPV",
+          "doseNumber":{
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "10",
+                  "display": "IPV"
+                }
+              ],
+            "text": "fIPV" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-12-05",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "fIPV",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "03",
+                  "display": "MMR"
+                }
+              ],
+            "text": "MR" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-10-01",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "MR",
+          "doseNumber":{
+            "value":1
+          },
+          "seriesDoses": {"value":1}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "03",
+                  "display": "MMR"
+                }
+              ],
+            "text": "MR" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-10-01",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "protocolApplied": [{
+          "series": "MR",
+          "doseNumber":{
+            "value":2
+          },
+          "seriesDoses": {"value":2}
+        }]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "39",
+                  "display": "Japanese encephalitis SC"
+                }
+              ],
+            "text": "Japanese Encephalitis" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-10-15",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+                {
+                  "system": "http://hl7.org/fhir/sid/cvx",
+                  "code": "190",
+                  "display": "Typhoid conjugate vaccine (TCV)"
+                }
+              ],
+            "text": "Typhoid Conjugate Vaccine" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2024-01-01",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        }
+      }
+    }
+  ]
+}
