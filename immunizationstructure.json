@@ -1,0 +1,85 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Immunization",
+  "url": "http://hl7.org/fhir/StructureDefinition/Immunization",
+  "version": "4.0.1",
+  "name": "Immunization",
+  "status": "active",
+  "date": "2019-11-01",
+  "publisher": "HL7 International",
+  "description": "Immunization event information",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Immunization",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DomainResource",
+  "derivation": "specialization",
+  "snapshot": {
+    "element": [
+      {
+        "id": "Immunization",
+        "path": "Immunization",
+        "short": "Immunization event information",
+        "min": 0,
+        "max": "*",
+        "type": [{ "code": "DomainResource" }]
+      },
+      {
+        "id": "Immunization.status",
+        "path": "Immunization.status",
+        "short": "completed | entered-in-error | not-done",
+        "min": 1,
+        "max": "1",
+        "type": [{ "code": "code" }],
+        "binding": {
+          "strength": "required",
+          "valueSet": {
+            "reference": "http://hl7.org/fhir/ValueSet/immunization-status"
+          }
+        }
+      },
+      {
+        "id": "Immunization.vaccineCode",
+        "path": "Immunization.vaccineCode",
+        "short": "Vaccine product administered",
+        "min": 1,
+        "max": "1",
+        "type": [{ "code": "CodeableConcept" }]
+      },
+      {
+        "id": "Immunization.patient",
+        "path": "Immunization.patient",
+        "short": "Who was immunized",
+        "min": 1,
+        "max": "1",
+        "type": [{ "code": "Reference", "targetProfile": ["http://hl7.org/fhir/StructureDefinition/Patient"] }]
+      },
+      {
+        "id": "Immunization.occurrence[x]",
+        "path": "Immunization.occurrence[x]",
+        "short": "Vaccination date/time",
+        "min": 1,
+        "max": "1",
+        "type": [
+          { "code": "dateTime" },
+          { "code": "string" }
+        ]
+      },
+      {
+        "id": "Immunization.reaction",
+        "path": "Immunization.reaction",
+        "short": "Details of reaction following immunization",
+        "min": 0,
+        "max": "*",
+        "type": [{ "code": "BackboneElement" }]
+      },
+      {
+        "id": "Immunization.reaction.manifestation",
+        "path": "Immunization.reaction.manifestation",
+        "short": "Clinical symptom/sign or diagnosis",
+        "min": 1,
+        "max": "*",
+        "type": [{ "code": "CodeableConcept" }]
+      }
+    ]
+  }
+}
