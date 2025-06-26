@@ -73,6 +73,19 @@
         "type": [{ "code": "BackboneElement" }]
       },
       {
+  "id": "Immunization.reaction.date",
+  "path": "Immunization.reaction.date",
+  "short": "When reaction started",
+  "definition": "Date of occurrence of the reaction (adverse event) following immunization.",
+  "min": 0,
+  "max": "1",
+  "type": [
+    {
+      "code": "dateTime"
+    }
+  ]
+},
+      {
         "id": "Immunization.reaction.manifestation",
         "path": "Immunization.reaction.manifestation",
         "short": "Clinical symptom/sign or diagnosis",
