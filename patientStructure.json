@@ -19,6 +19,53 @@
         "path": "Patient"
       },
       {
+        "id": "Patient.extension",
+        "path": "Patient.extension",
+        "short": "Additional information about the patient",
+        "definition": "An extension to capture ethnic code based on Nepal's demographic classification.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension"
+          }
+        ]
+      },
+      {
+        "id": "Patient.extension:ethnicCode",
+        "path": "Patient.extension",
+        "sliceName": "ethnicCode",
+        "short": "Ethnic Code (Nepal)",
+        "definition": "Ethnic group code based on Nepal's official classifications.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/StructureDefinition/ethnic-code-nepal"
+            ]
+          }
+        ]
+      },
+       {
+        "id": "Patient.extension:weight",
+        "path": "Patient.extension",
+        "sliceName": "weight",
+        "short": "Patient's weight in kilograms",
+        "definition": "The body weight of the patient in kilograms for immunization and growth monitoring.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/fhir/StructureDefinition/weight-patient-nepal"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Patient.identifier",
         "path": "Patient.identifier",
         "min": 1,
