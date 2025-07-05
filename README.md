@@ -27,10 +27,14 @@ FHIR-Project-Immunization/
 
 - ✅ **Custom FHIR Profile for Immunization**
   - Built specifically for childhood vaccines like BCG.
+  
+- ✅ **Custom FHIR Profile for Organization**
+  - Built specifically for managing childhood vaccination programme.
 
 - ✅ **FHIR Instances**
   - Example Patient resource with demographic fields.
   - Example Immunization resource for **BCG vaccine**.
+  - Example Organization resource for **Bharatpur Health Post**
 
 ---
 
@@ -48,6 +52,7 @@ This project can be used for:
 ## 🧪 Tools & Standards
 
 - **FHIR Version:** R4 (4.0.1)
+- - **FHIR Validator:** [HAPI FHIR Validator](https://hapifhir.io/)
 - **Code System:** WHO EPI/Nepal Vaccine Codes (CVX/SNOMED if applicable)
 
 ---
@@ -67,6 +72,7 @@ This project can be used for:
 - [FHIR StructureDefinition Guide](https://www.hl7.org/fhir/profiling.html)
 - [HL7 FHIR Patient Resource](https://hl7.org/fhir/StructureDefinition/Patient)
 - [HL7 FHIR immunization resource](http://hl7.org/fhir/StructureDefinition/immunization)
+- [HL7 FHIR organization resource](http://hl7.org/fhir/StructureDefinition/organization)
 - [HL7 FHIR domain resource](http://hl7.org/fhir/StructureDefinition/DomainResource)
 - [Government of Nepal, Ministry of Health and Population, Department of Health Services, Health Management Information System (HMIS) guideline 2075: Register, card and reporting formats](https://hsodailekh.gov.np/wp-content/uploads/2023/01/HMIS-2.2-Immunization-Register.pdf))
 
