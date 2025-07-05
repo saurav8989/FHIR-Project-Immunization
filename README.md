@@ -48,7 +48,6 @@ This project can be used for:
 ## 🧪 Tools & Standards
 
 - **FHIR Version:** R4 (4.0.1)
-- **FHIR Validator:** [HAPI FHIR Validator](https://hapifhir.io/)
 - **Code System:** WHO EPI/Nepal Vaccine Codes (CVX/SNOMED if applicable)
 
 ---
