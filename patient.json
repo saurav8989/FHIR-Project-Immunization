@@ -1,0 +1,113 @@
+{
+  "resourceType": "Patient",
+   "extension": [
+    {
+      "url": "http://example.org/fhir/StructureDefinition/ethnic-code-nepal",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://example.org/fhir/CodeSystem/nepal-ethnic-group",
+            "code": "06",
+            "display": "Gurung"
+          }
+        ],
+        "text": "Gurung"
+      }
+    },
+    {
+      "url": "http://example.org/fhir/StructureDefinition/weight-patient-nepal",
+      "valueQuantity": {
+        "value": 12.5,
+        "unit": "kg",
+        "system": "http://unitsofmeasure.org",
+        "code": "kg"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record Number"
+          }
+        ]
+      },
+      "system": "http://hospital.example.org/mrn",
+      "value": "CH-20230001"
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": "Gurung",
+      "given": ["Sita"]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2023-01-01",
+  "address": [
+    {
+      "use": "home",
+      "line": ["Ward 5, Bharatpur"],
+      "city": "Chitwan",
+      "district": "Chitwan",
+      "state": "Bagmati",
+      "postalCode": "44207",
+      "country": "NP"
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "+9779800000001",
+      "use": "mobile"
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/healthpost-01",
+    "display": "Bharatpur Health Post"
+  },
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "code": "MTH",
+              "display": "Mother"
+            }
+          ],
+          "text": "Mother"
+        }
+      ],
+      "name": {
+        "family": "Shrestha",
+        "given": ["Sita"]
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "+9779800000000",
+          "use": "mobile"
+        },
+        {
+          "system": "email",
+          "value": "sita.shrestha@example.com"
+        }
+      ],
+      "address": {
+        "line": ["Ward No. 5, New Road"],
+        "city": "Kathmandu",
+        "district": "Kathmandu",
+        "state": "Bagmati",
+        "postalCode": "44600",
+        "country": "Nepal"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+        "resourceType": "Immunization",
+        "status": "completed",
+        "vaccineCode": { 
+            "code": [
+        		  {
+          			"system": "http://hl7.org/fhir/sid/cvx",
+          			"code": "292",
+          			"display": "BCG"
+        		  }
+        		],
+            "text": "BCG" },
+        "patient": { "reference": "Patient/123" },
+        "occurrenceDateTime": "2023-01-01",
+        "primarySource": true,
+        "location": {
+          "reference": "Location/healthcentre",
+          "display": "Health Centre"
+        },
+        "reaction": [
+    {
+      "date": "2023-01-03",
+      "manifestation": {
+        "concept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "386661006",
+              "display": "Fever"
+            }
+          ],
+          "text": "Fever"
+        }
+      },
+      "reported": true
+    }
+  ]
+}
