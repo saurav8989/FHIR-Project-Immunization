@@ -1,0 +1,25 @@
+{
+  "resourceType": "Organization",
+  "id": "healthpost-01",
+  "name": "Bharatpur Health Post",
+  "type": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        }
+      ]
+    }
+  ],
+  "address": [
+    {
+      "line": ["Ward 5, Bharatpur"],
+      "city": "Chitwan",
+      "state": "Bagmati",
+      "postalCode": "44207",
+      "country": "NP"
+    }
+  ]
+}
