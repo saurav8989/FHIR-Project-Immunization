@@ -100,14 +100,17 @@
           "value": "sita.shrestha@example.com"
         }
       ],
-      "address": {
-        "line": ["Ward No. 5, New Road"],
-        "city": "Kathmandu",
-        "district": "Kathmandu",
-        "state": "Bagmati",
-        "postalCode": "44600",
-        "country": "Nepal"
-      }
+      "address": [
+    {
+      "use": "home",
+      "line": ["Ward 5, Bharatpur"],
+      "city": "Chitwan",
+      "district": "Chitwan",
+      "state": "Bagmati",
+      "postalCode": "44207",
+      "country": "NP"
+    }
+  ]
     }
   ]
 }
