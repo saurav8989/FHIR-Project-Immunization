@@ -65,7 +65,11 @@ This project can be used for:
 ## 📚 References
 
 - [HL7 FHIR Specification (R4)](https://hl7.org/fhir/)
-- [Nepal National Immunization Schedule (DoHS)](https://dohs.gov.np/)
 - [FHIR StructureDefinition Guide](https://www.hl7.org/fhir/profiling.html)
+- [HL7 FHIR Patient Resource](https://hl7.org/fhir/StructureDefinition/Patient)
+- [HL7 FHIR immunization resource](http://hl7.org/fhir/StructureDefinition/immunization)
+- [HL7 FHIR domain resource](http://hl7.org/fhir/StructureDefinition/DomainResource)
+![image](https://github.com/user-attachments/assets/0a5fad37-1810-4e5c-b7d8-11d7d6fbd9fe)
+
 
 
