@@ -69,7 +69,7 @@ This project can be used for:
 - [HL7 FHIR Patient Resource](https://hl7.org/fhir/StructureDefinition/Patient)
 - [HL7 FHIR immunization resource](http://hl7.org/fhir/StructureDefinition/immunization)
 - [HL7 FHIR domain resource](http://hl7.org/fhir/StructureDefinition/DomainResource)
-- [Government of Nepal, Ministry of Health and Population, Department of Health Services, Health Management Information System (HMIS) guideline 2075: Register, card and reporting formats](https://fwd.gov.np/cms/health‑management‑information‑system‑hmis‑guideline‑2075/)
+- [Government of Nepal, Ministry of Health and Population, Department of Health Services, Health Management Information System (HMIS) guideline 2075: Register, card and reporting formats](https://hsodailekh.gov.np/wp-content/uploads/2023/01/HMIS-2.2-Immunization-Register.pdf))
 
 
 
